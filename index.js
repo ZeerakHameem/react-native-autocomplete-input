@@ -244,7 +244,7 @@ const styles = StyleSheet.create({
   },
   ...Platform.select({
     android: { ...androidStyles },
-    ios: { ...iosStyles }
+    ios: { ...androidStyles }
   })
 });
 
